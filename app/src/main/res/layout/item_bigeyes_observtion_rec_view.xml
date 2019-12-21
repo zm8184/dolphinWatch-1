@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:id="@+id/bigeyes_parent_layout">
+
+    <TextView
+        android:id="@+id/placeTextView"
+        android:layout_width="275dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="4dp"
+        android:layout_toRightOf="@+id/timeOfObservationTextView"
+        android:gravity="center"
+        android:text="Lokacija 1" />
+
+    <TextView
+        android:id="@+id/timeOfObservationTextView"
+        android:layout_width="103dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="12:00" />
+
+</RelativeLayout>
