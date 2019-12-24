@@ -15,7 +15,7 @@ import java.util.Vector;
 
 public class BigEyeObservationsRecViewAdapter extends RecyclerView.Adapter<BigEyeObservationsRecViewAdapter.ViewHolder> {
     private static final String TAG = "BigEyeObservationsRec";
-    
+
     private Vector observations;
     private Context mContext;
 
